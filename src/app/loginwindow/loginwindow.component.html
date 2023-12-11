@@ -1,0 +1,26 @@
+<app-navbar></app-navbar>
+<body>
+<form class="login">
+  
+    <div class="signup">
+       <h1>SIGN UP</h1>
+       
+       <mat-form-field class="example-full-width">
+          <mat-label>Email</mat-label>
+          <input matInput placeholder="GGGG@Gmail.com" type="text" [(ngModel)]="Email" [ngModelOptions]="{standalone:true}">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+          <mat-label>Password</mat-label>
+          <input matInput placeholder=" " type="password" [(ngModel)]="Password" [ngModelOptions]="{standalone:true}">
+        </mat-form-field>
+        <section>
+          <div class="example-button-row">
+            <button type = "submit" class ="bt1" mat-flat-button color ="#344" (click)="login()">Sign Up</button>
+            <a routerLink="/register"><button class ="bt2" mat-flat-button color="#333" >Register</button></a>
+          </div>
+        </section>
+    </div>
+    
+ </form>
+</body>

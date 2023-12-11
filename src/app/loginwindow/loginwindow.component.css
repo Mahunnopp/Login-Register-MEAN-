@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: #7c7a7a;
+    align-items: center;
+
+
+}
+form.login{
+    display: flex;
+    color: white;
+    background: #333;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    border-radius: 2rem;
+    text-align: center;
+    
+        & div.signup{
+            margin-top: 10px;
+        }
+        & .bt2{
+            margin-left: 10px;
+        }
+          
+    }
+
