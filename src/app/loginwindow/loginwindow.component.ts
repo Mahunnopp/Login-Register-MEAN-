@@ -52,9 +52,7 @@ export class LoginwindowComponent {
           function second(n:number){ //ต้องการกี่วินาที
             return n*1000 //1000 ms = 1 วินาที
           }
-          function minite(n:number){ //ต้องการกี่นาที
-            return n*60000 //60000 ms = 1 นาที
-          }
+
           async function run() { //ใช้ async เพื่อเรียงลำดับการเรียกใช้งาน
             await route.navigate(['/home'])
             await wait("Back to login page in 5 second",100)
